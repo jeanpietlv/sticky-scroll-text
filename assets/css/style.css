@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+.sticky-scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-transform: uppercase;
+    color:#fff;
+  }
+
+  .container-scroll {
+      position: relative;
+      display: flex;
+      background: #fff;
+  }
+
+  .container-scroll span {
+      position: sticky;
+      top: 0;
+      width: 25%;
+      height: 100vh;
+      background: #0515a8;
+      margin-top: calc(100vh * var(--i));
+      color:#fff;
+
+  }
+
+  .sticky-scroll-h2 {
+      position: relative;
+      /*background: linear-gradient(0deg,#ff0076,#cc00ff,#ffae00,#1fae99,#00f);*/
+      background:#0515a8 ;
+      display: flex;
+      justify-content: center;
+      color:#FFF;
+}
+
+.sticky-scroll-h2 span {
+    position: sticky;
+    top:0;
+    line-height: 100vh;
+    height: 100vh;
+    color: #fff;
+    font-size: 6em;
+    margin-top: calc(100vh * var(--i));
+}
